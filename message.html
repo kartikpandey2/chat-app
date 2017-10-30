@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Chat App</title></head>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+<link rel="stylesheet" href="css\message_css.css">
+<body>
+<h1> hello iam Chat App </h1>
+<div id ="top-bar">
+<a href = "/logout">Logout</a>
+</div>
+<div id = 'user'>
+    <div id= 'user1'>
+	  <div id='username1'>
+	  <h3><p id ='username'></p></h3>
+	  <p id = 'tuser1'></p>
+	  </div>
+	  <div id = 'showMessage1'>
+	  <p id = 'msg1'></p>
+	  </div>
+	  <div id ='chat_form'>
+	  <form>
+      <input type = 'text' id = 'message1' placeholder='your message'> <br>
+      <input type ='button' id= 'button1'  value = 'Send' >
+	  </form>
+	  </div>
+    </div>
+
+</div>
+</body>
+<script src ='javascript/message_js.js'></script>
+</html>

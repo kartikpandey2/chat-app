@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Chat App </title>
+<style>
+body{
+ background-image:url("http://localhost/php%20data/project/background2.jpg");
+ background-repeat: no-repeat;
+ background-position:right;
+ background-attachment:fixed;
+}
+#register{
+text-align: center;
+margin: 150px 550px 200px 500px;
+padding:20px 20px 20px 20px;
+background-color:rgba(200,0,0,0.2);
+}
+input.register-form{
+height:20px;
+width:200px;
+}
+h1{
+    color:red;
+    text-align: center;
+}name
+button{
+height:20px;
+width:200px;
+}
+</style>
+</head>
+<body>
+<h1> Chat App Register</h1>
+<div id="register">
+<form class="register-form"  action="/register_data" method="post">
+      <input class="register-form" type="text" placeholder="name" name="name" ><br><br>
+      <input class="register-form" type="password" placeholder="password" name="password" ><br><br>
+      <input class="register-form" type="text" placeholder="email address" name="email_address" ><br><br>
+      <button>Register</button> 
+      <p class="message">Registered? <a href="/">Sign In</a></p>	  
+	  </form>
+ 
+</div>
+
+</body>
+<html>

@@ -1,0 +1,21 @@
+html
+	head
+		title Chat App
+	script(src = "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js")
+	link( rel="stylesheet" href="css/test_css.css")
+	body
+		h1 hello iam Chat App 
+		div(id ="top-bar")
+			a(href = "/logout") Logout
+		div(id = 'user')
+			div(id ='user1')
+				div(id = 'username1')
+				b = user
+				p(id = 'tuser1')  
+			div(id = 'showMessage1')
+				p(id = 'msg1')
+			div(id = 'chat_form')
+				form
+					input(type = 'text' id = 'message1' placeholder='your message')
+					input(type ='button' id= 'button1'  value = 'Send' )
+	script(src ='javascript/clientside_io.js')

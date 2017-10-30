@@ -1,0 +1,30 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "my first package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/kartikpandey2/chat-app.git)"
+  },
+  "author": "kartik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "connect": "^3.6.3",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "express-sessions": "^1.0.6",
+    "mongoose": "^4.11.10",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.4",
+    "save": "^2.3.1",
+    "sessions": "0.0.2-7",
+    "socket.io": "^2.0.3"
+  }
+}
