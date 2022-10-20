@@ -20,7 +20,7 @@
     "express": "^4.15.4",
     "express-session": "^1.15.5",
     "express-sessions": "^1.0.6",
-    "mongoose": "^4.11.10",
+    "mongoose": "^4.13.21",
     "path": "^0.12.7",
     "pug": "^2.0.0-rc.4",
     "save": "^2.3.1",
